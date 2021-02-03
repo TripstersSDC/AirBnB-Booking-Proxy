@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.header-container {
+  width: 1180px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  height: 80px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.main {
+  width: 1180px;
+}
+
+.srch {
+  margin-left: 20px;
+  line-height: 48px;
+}
+
+.glass {
+  padding: 10px;
+  height: 32px;
+  margin: 7px 7px 7px 0px;
+  border-radius: 32px;
+  background-color: #FF385C;
+  color: #fff;
+}
+
+.btn-ctn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.search {
+  outline: none;
+  border: 1px solid #717171;
+  background: none;
+  width: 300px;
+  height: 48px;
+  border-radius: 48px;
+  font-weight: 600;
+}
+
+.search:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px;
+  cursor: pointer;
+}
+
+.host {
+  display: flex;
+  flex-direction: row;
+}
+
+.host-2 {
+  display: flex;
+  padding: 5px 10px 5px 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #717171;
+  border-radius: 46px;
+  margin: 2.5px;
+}
+
+.host-2:hover {
+  background: #dddddd50;
+  cursor: pointer;
+}
+
+.icon {
+  margin-left: 5px;
+}
+
+.globe {
+  display: flex;
+  width: 55px;
+  align-items: center;
+  justify-content: center;
+  height: 46px;
+  border-radius: 46px;
+  margin: 2.5px;
+}
+
+.globe:hover {
+  background: #dddddd50;
+  cursor: pointer;
+}
+
+.bchst {
+  display: flex;
+  width: 128px;
+  align-items: center;
+  justify-content: center;
+  height: 46px;
+  border-radius: 46px;
+  font-weight: 500;
+  margin: 2.5px;
+}
+
+.bchst:hover {
+  background: #dddddd50;
+  cursor: pointer;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.desc-container {
+  display: flex;
+  flex-direction: column;
+  width: 805px;
+  border-radius: 1px solid #222222;
+}
+
+#service1 {
+  position: -webkit-sticky;
+  position: sticky;
+  align-self: flex-start;
+  top: 10rem;
+}
+
+.mods {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.photos {
+  width: 100%;
+}
