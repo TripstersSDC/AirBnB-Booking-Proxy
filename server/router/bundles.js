@@ -7,7 +7,8 @@ router.get('/services1.js', (req, res) => {
     .then((response) => {
       res.set('Cache-Control', 'public, max-age=31557600'); // one year
       res.type('.js').send(response.data);
-    });
+    })
+    .catch(error => console.log(error));
 });
 
 router.get('/723.bundle.js', (req, res) => {
@@ -15,7 +16,8 @@ router.get('/723.bundle.js', (req, res) => {
     .then((response) => {
       res.set('Cache-Control', 'public, max-age=31557600'); // one year
       res.type('.js').send(response.data);
-    });
+    })
+    .catch(error => console.log(error));
 });
 
 router.get('/789.bundle.js', (req, res) => {
@@ -23,7 +25,8 @@ router.get('/789.bundle.js', (req, res) => {
     .then((response) => {
       res.set('Cache-Control', 'public, max-age=31557600'); // one year
       res.type('.js').send(response.data);
-    });
+    })
+    .catch(error => console.log(error));
 });
 
 router.get('/services2.js', (req, res) => {
@@ -31,7 +34,8 @@ router.get('/services2.js', (req, res) => {
     .then((response) => {
       res.set('Cache-Control', 'public, max-age=31557600'); // one year
       res.type('.js').send(response.data);
-    });
+    })
+    .catch(error => console.log(error));
 });
 
 router.get('/services3.js', (req, res) => {
@@ -39,7 +43,8 @@ router.get('/services3.js', (req, res) => {
     .then((response) => {
       res.set('Cache-Control', 'public, max-age=31557600'); // one year
       res.type('.js').send(response.data);
-    });
+    })
+    .catch(error => console.log(error));
 });
 
 module.exports = router;

@@ -6,28 +6,32 @@ router.use(service1.cal, (req, res) => {
   axios.get(`${service1.url}${req.baseUrl}`)
     .then((response) => {
       res.send(response.data);
-    });
+    })
+    .catch(error => console.log(error));
 });
 
 router.use(service1.api, (req, res) => {
   axios.get(`${service1.url}${req.baseUrl}`)
     .then((response) => {
       res.send(response.data);
-    });
+    })
+    .catch(error => console.log(error));
 });
 
 router.use(service2.api, (req, res) => {
   axios.get(`${service2.url}${req.baseUrl}`)
     .then((response) => {
       res.send(response.data);
-    });
+    })
+    .catch(error => console.log(error));
 });
 
 router.use(service3.api, (req, res) => {
   axios.get(`${service3.url}${req.baseUrl}`)
     .then((response) => {
       res.send(response.data);
-    });
+    })
+    .catch(error => console.log(error));
 });
 
 module.exports = router;
